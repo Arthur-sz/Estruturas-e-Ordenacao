@@ -16,7 +16,7 @@ Como executar:
 # ---------------------------------------------------------------------------
 # ESTADO GLOBAL
 # ---------------------------------------------------------------------------
-dados = []        # vetor único usado por pilha, fila e fila circular
+dados = []        # vetor único usado por pilha, fila e fila circular4
 tipo = None       # None, "pilha", "fila" ou "fila_circular"
 tamanho = 0       # capacidade máxima da estrutura ativa
 topo = -1         # pilha: índice do último elemento (-1 = vazia)
@@ -366,7 +366,7 @@ def main():
             menu_estrutura("Fila", "fila", push_fila, pop_fila)
         elif opcao == 3:
             menu_estrutura("Fila circular", "fila_circular",
-                           push_circular, pop_circular, show_circular)
+                           push_circular, pop_circular)
         elif opcao == 4:
             menu_ordenar()
         else:
